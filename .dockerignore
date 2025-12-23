@@ -1,0 +1,31 @@
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore cache files recursively
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore Weights & Biases local runs and metadata
+wandb/
+# Ignore Hydra outputs and multirun results
+outputs/
+multirun/
+# Ignore local data 
+data/
+*.csv
+*.log
+
+
+.env
+.git/
+.gitignore
+
+.ipynb_checkpoints/
+notebooks/
+.DS_Store
+.vscode/
+.idea/
