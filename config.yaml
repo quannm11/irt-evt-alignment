@@ -8,8 +8,8 @@ seed: 42
 data:
   dataset_name: "Anthropic/hh-rlhf"
   subset: "harmless-base"
-  max_samples: 100
-  red_team_keywords: ["kill", "hack", "exploit", "bomb"]
+  max_samples: 500
+  red_team_keywords: ["kill", "hack", "exploit", "bomb", "bypass", "jailbreak"]
 
 judge:
   model_name: "unitary/toxic-bert"
